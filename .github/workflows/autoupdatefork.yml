@@ -4,9 +4,6 @@ name: update fork
 on: 
   schedule:
     - cron: '0 16 * * *' #设置定时任务
-  push:
-    branches:
-      - master
   workflow_dispatch:
 
 jobs:
